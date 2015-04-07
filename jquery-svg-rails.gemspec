@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Adrian Perez"]
   spec.email         = ["adrianperez.deb@gmail.com"]
 
-  spec.summary       = %q{A jQuery plugin that lets you interact with an SVG canvas adapted for the asset pipeline}
+  spec.summary       = %q{A jQuery plugin that lets you interact with an SVG canvas adapted for the Rails asset pipeline}
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/blackxored/jquery-svg-rails"
   spec.license       = "MIT"
