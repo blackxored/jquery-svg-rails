@@ -1,7 +1,7 @@
 # jQuery SVG Rails
 
 A jQuery plugin that let's you interact with an SVG canvas.
-Adapted from http://keith-wood.name/svg.html to the asset pipeline
+Adapted from http://keith-wood.name/svg.html to the asset pipeline.
 
 ## Installation
 
@@ -24,6 +24,16 @@ In a manifest, include the plugin:
 
 #= require 'jquery-svg'
 ```
+
+Or any of the extensions:
+
+* jquery.svgdom
+* jquery.svganim
+* jquery.svgfilter
+* jquery.svggraph
+* jquery.svgplot
+
+Check the documentation in the site above for details and particular usage.
 
 ## Development
 
