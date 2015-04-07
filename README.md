@@ -22,10 +22,11 @@ In a manifest, include the plugin:
 
 ``` ruby
 
-#= require 'jquery-svg'
+#= require 'jquery.svg.js'
 ```
 
-Or any of the extensions:
+The main file requires the JS extension as to not confuse Rails with the MIME
+type, you can require any of the extensions without the suffix:
 
 * jquery.svgdom
 * jquery.svganim
